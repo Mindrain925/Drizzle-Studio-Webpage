@@ -1,0 +1,22 @@
+#TeamIntroduction{
+    display: flex;
+    width : 100%;
+    height : 100vh;
+}
+
+#TeamText{
+    display: flex;
+    flex : 3;
+    background-color: aqua;
+}
+
+#CinematicVideoContainer{
+    display : flex;
+    flex : 4;
+    background-color: blanchedalmond;
+}
+
+#CinematicVideo{
+    width: 100%;
+    height: 100%;
+}
