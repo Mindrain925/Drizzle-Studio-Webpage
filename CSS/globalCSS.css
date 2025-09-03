@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'NeoDunggeunmoPro-Bold';
+    src: url('/Drizzle-Studio-Webpage/Source/NeoDunggeunmoPro-Regular.woff') format('woff');
+    font-weight : normal; 
+}
+
+@font-face {
+    font-family: 'NeoDunggeunmoPro-Regular';
+    src: url('/Drizzle-Studio-Webpage/Source/NeoDunggeunmoPro-Regular.woff') format('woff');
+    font-weight: bold;
+}
