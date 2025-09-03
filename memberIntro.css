@@ -1,9 +1,0 @@
-#MembersDisplay {
-    display: flex;
-    overflow-x: scroll;
-}
-
-.memberCard {
-    flex: 0 0 100%;
-    display: flex;
-}
