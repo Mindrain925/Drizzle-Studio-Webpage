@@ -13,9 +13,12 @@
 :root {
     --color-white: #fff;
     --color-black: #000;
-    --color-grey: #404040;
+    --color-grey: #707070;
     --color-background : #19192A;
     --color-point-yellow : #F8F32B;
+
+    --font-header: 'NeoDunggeunmoPro-Bold';
+    --font-text: 'NeoDunggeunmoPro-Regular';
 }
 
 html{
@@ -36,5 +39,13 @@ section {
 /* 각 섹션의 헤더 */
 .sectionHeader {
     text-align: center;
-    font-size: 4em;
+    font-size: 5em;
+    font-family: var(--font-header);
+    margin-bottom: 0.8em;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1.2em;
+    font-family: var(--font-text);
 }
