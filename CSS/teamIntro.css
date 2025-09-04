@@ -8,7 +8,7 @@
     display: flex;
     flex : 3;
 
-    background-color: #19192A;
+    background-color: var(--color-background);
 }
 
 #TeamTextContainer{
@@ -31,7 +31,7 @@
     padding: 0 0 0 0;
     
     font-size: 13vh;
-    color : #F8F32B; 
+    color : var(--color-point-yellow); 
 }
 
 #TeamIntroduceText{
@@ -43,14 +43,14 @@
     padding: 0 0 0 0;
 
     font-size: 3vh;
-    color : white; 
+    color : var(--color-white); 
 }
 
 #CinematicVideoContainer{
     display : flex;
     flex : 5;
 
-    background-color: #19192A;
+    background-color: var(--color-point-yellow);
 }
 
 #CinematicVideo{
