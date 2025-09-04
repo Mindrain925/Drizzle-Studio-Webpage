@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'NeoDunggeunmoPro-Bold';
-    src: url('/Drizzle-Studio-Webpage/Source/NeoDunggeunmoPro-Regular.woff') format('woff');
+    src: url('../Source/NeoDunggeunmoPro-Regular.woff') format('woff');
     font-weight : normal; 
 }
 
 @font-face {
     font-family: 'NeoDunggeunmoPro-Regular';
-    src: url('/Drizzle-Studio-Webpage/Source/NeoDunggeunmoPro-Regular.woff') format('woff');
+    src: url('../Source/NeoDunggeunmoPro-Regular.woff') format('woff');
     font-weight: bold;
 }
 
@@ -14,6 +14,12 @@
     --color-white: #fff;
     --color-black: #000;
     --color-grey: #404040;
+    --color-background : #19192A;
+    --color-point-yellow : #F8F32B;
+}
+
+html{
+    scroll-snap-type: y mandatory;
 }
 
 body {
@@ -23,6 +29,7 @@ body {
 section {
     width: 100%;
     height: 100vh;
+    scroll-snap-align: center;
 }
 
 /* 각 섹션의 헤더 */
