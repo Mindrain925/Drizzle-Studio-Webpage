@@ -41,7 +41,7 @@ section {
     text-align: center;
     font-size: 5em;
     font-family: var(--font-header);
-    margin-bottom: 0.8em;
+    margin: 8vh 0 6vh;
 }
 
 p {

@@ -1,7 +1,9 @@
 #MembersDisplay {
     display: flex;
     overflow-x: scroll;
-    margin: 4% 0 2%;
+    scroll-snap-type: x mandatory; /* 스크롤 시 각 아이템의 시작점에 스냅되도록 설정 */
+    -webkit-overflow-scrolling: touch; /* iOS에서 스크롤을 부드럽게 만듦 */
+    margin: 6vh 0 9vh;
     height: 60%;
 }
 
@@ -13,6 +15,7 @@
     flex: 0 0 80%;
     display: flex;
     padding: 0 10%;
+    scroll-snap-align: start; /* 스크롤이 시작점에 정렬되도록 함 */
 }
 
 .memberIconContainer {
@@ -75,4 +78,27 @@ blockquote h3 {
 .snsIconContainer a img {
     width: 100%;
     height: 100%;
+}
+
+#MemberIndicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5px;
+}
+
+.indicatorContainer {
+    width: 100%;
+    height: 100%;
+    margin: 0 35%;
+    border-radius: 4px;
+    background-color: var(--color-grey);
+}
+
+.indicator {
+    height: 100%;
+    width: 25%;
+    border-radius: inherit;
+    background-color: var(--color-black);
 }
