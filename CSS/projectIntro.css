@@ -1,3 +1,117 @@
-#ProjectIntroduction{
+#ProjectIntroduction {
     background-color: var(--color-background);
+    color: var(--color-white);
+    font-family: var(--font-text);
+}
+
+#ProjectDisplay {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory; /* 스크롤 시 각 아이템의 시작점에 스냅되도록 설정 */
+    -webkit-overflow-scrolling: touch; /* iOS에서 스크롤을 부드럽게 만듦 */
+    margin: 6vh 0 9vh;
+    height: 70vh;
+}
+
+#ProjectDisplay::-webkit-scrollbar {
+    display: none;
+}
+
+.projectCard {
+    flex: 0 0 80%;
+    display: flex;
+    padding: 0 10%;
+    scroll-snap-align: start; /* 스크롤이 시작점에 정렬되도록 함 */
+}
+
+.projectInfoContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 5%;
+    width: 40%;
+}
+
+.projectLogoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 5px;
+    border-style: inset;
+    background-color: var(--color-light-grey);
+}
+
+.projectLogoContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.projectNameContainer {
+    width: 100%;
+    font-size: 2em;
+}
+
+.projectName {
+    margin: 0.5em 0 0.3em;
+}
+
+.projectTagContainer {
+    margin: 6px 0;
+}
+
+.tag {
+    border: 4px;
+    border-style: double;
+    padding: 1px 2px;
+}
+
+.projectStatus {
+    font-size: 1.1em;
+    margin: 2vh 0 0;
+}
+
+.in-progress {
+    color: var(--color-light-blue);
+}
+
+.buttonContainer {
+    margin-top: auto;
+}
+
+.buttonContainer button {
+    display: inline-block;
+    border: 2px solid var(--color-light-grey);
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 1.1em;
+    color: var(--color-light-grey);
+    width: 100%;
+    height: 4vh;
+    margin-top: 1vh;
+    transition-duration: 0.25s;
+}
+
+.buttonContainer button:hover {
+    background-color: var(--color-light-grey);
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.buttonContainer button:active {
+    background-color: transparent;
+}
+
+.projectImageContainer {
+    display: flex;
+    width: 60%;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectImageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
