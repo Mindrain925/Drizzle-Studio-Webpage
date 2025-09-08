@@ -1,3 +1,8 @@
+#MemberIntroduction{
+    background-color : var(--color-background);
+    color : white;
+}
+
 #MembersDisplay {
     display: flex;
     overflow-x: scroll;
@@ -27,9 +32,10 @@
 }
 
 .memberIconContainer img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 3%;
 }
 
 .memberDiscriptionContainer {
@@ -44,14 +50,15 @@
     margin-top: 0.5em;
     margin-bottom: 0.25em;
     font-family: var(--font-text);
+    color : white;
 }
 
 blockquote {
-    border-left: 4px solid var(--color-grey); /* 왼쪽 테두리 4px, 회색 실선 */
+    border-left: 4px solid var(--color-light-purple); /* 왼쪽 테두리 4px, 회색 실선 */
     padding-left: 15px;       /* 텍스트와 테두리 사이 간격 */
     margin: 20px 0;           /* 위아래 여백 */
     font-size: 1.5em;
-    color: var(--color-grey);
+    color : var(--color-light-purple);
     font-family: 'NeoDunggeunmoPro-Regular';
 }
 
