@@ -18,7 +18,13 @@
     --color-light-blue: #6f96e9;
     --color-background : #19192A;
     --color-point-yellow : #F8F32B;
+    --color-light-purple : #BE93FD;
 
+    --color-deep-void: #1A1A2B;
+    --color-focus-white: #F5F5F5;
+    --color-readable-grey: #BDBDBD;
+    --color-subtle-grey: #757575;
+    
     --font-header: 'NeoDunggeunmoPro-Bold';
     --font-text: 'NeoDunggeunmoPro-Regular';
 }
@@ -44,6 +50,7 @@ section {
     font-size: 5em;
     font-family: var(--font-header);
     margin: 8vh 0 6vh;
+    color : var(--color-point-yellow)
 }
 
 p {
