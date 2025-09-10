@@ -38,7 +38,7 @@
     border-radius: 3%;
 }
 
-.memberDiscriptionContainer {
+.memberDescriptionContainer {
     display: flex;
     flex-direction: column;
     padding: 15px 5%;
